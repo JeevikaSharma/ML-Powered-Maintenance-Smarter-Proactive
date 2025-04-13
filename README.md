@@ -61,7 +61,7 @@ Trained and evaluated multiple models:
 
 - **Language**: Python  
 - **Libraries**: Pandas, NumPy, scikit-learn, matplotlib, seaborn  
-- Machine Learning and its Techniques :
+- **Machine Learning and its Techniques** :
   - Feature Engineering (temp difference, mechanical power)
   - Handling Imbalanced Classes (class weights, performance metrics)
   - Model Evaluation (ROC-AUC, precision-recall, confusion matrix)
