@@ -61,8 +61,13 @@ Trained and evaluated multiple models:
 
 - **Language**: Python  
 - **Libraries**: Pandas, NumPy, scikit-learn, matplotlib, seaborn  
-
+- ** Machine Learning and its Techniques **:
+  - Feature Engineering (temp difference, mechanical power)
+  - Handling Imbalanced Classes (class weights, performance metrics)
+  - Model Evaluation (ROC-AUC, precision-recall, confusion matrix)
+  - Cross-validation & Hyperparameter Tuning
 ---
+
 ## 🧠 Outcome
 
 Achieved a reliable model that can proactively predict machine failures with high precision and recall, significantly improving maintenance planning and operational efficiency.
