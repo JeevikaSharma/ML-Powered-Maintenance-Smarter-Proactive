@@ -14,6 +14,8 @@ Unexpected machine failures in manufacturing can cause costly downtimes and safe
 
 The dataset includes sensor measurements and operational settings from different machine types.
 
+The dataset used in this project can be accessed [here](https://www.kaggle.com/datasets/stephanmatzka/predictive-maintenance-dataset-ai4i-2020).
+
 **Features:**
 - `Type`: Machine type (L, M, H)
 - `Rotational speed [rpm]`
@@ -43,11 +45,10 @@ Trained and evaluated multiple models:
 - Decision Tree
 - Random Forest
 - Gradient Boosting
-- XGBoost
 
 ### ⚖️ Imbalance Handling
+- Used SMOTE Technique to handle imbalanced dataset
 - Used `class_weight='balanced'` in models.
-- Evaluated models using metrics suited for imbalanced data.
 
 ### 📈 Evaluation Metrics
 - Classification Report (Precision, Recall, F1)
@@ -56,28 +57,14 @@ Trained and evaluated multiple models:
 - Precision-Recall Curves
 
 ---
-
-## 🧠 Outcome
-
-- Identified key predictors of machine failure.
-- Achieved high recall and ROC-AUC, making the model useful for early failure detection.
-
----
-
 ## 🛠️ Tech Stack
 
 - **Language**: Python  
-- **Libraries**: Pandas, NumPy, scikit-learn, XGBoost, matplotlib, seaborn  
+- **Libraries**: Pandas, NumPy, scikit-learn, matplotlib, seaborn  
 
 ---
+## 🧠 Outcome
 
-## 🚀 Future Scope
+Achieved a reliable model that can proactively predict machine failures with high precision and recall, significantly improving maintenance planning and operational efficiency.
 
-- Deploy using Streamlit or Flask
-- Real-time monitoring and alerts
-- Model explainability using SHAP or LIME
-
----
-
-## 📂 Project Structure
 
